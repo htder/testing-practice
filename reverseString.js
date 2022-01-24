@@ -1,3 +1,5 @@
-function reverseString(word) {}
+function reverseString(word) {
+  return word.split("").reverse().join("");
+}
 
-modules.export = reverseString;
+module.exports = reverseString;
